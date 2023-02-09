@@ -1,0 +1,375 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#navhov{
+ border:solid black;
+ padding: 15px;
+ transition: 0.5s ease;
+ border-radius: 7px;
+} 
+#navhov:hover{
+  border-color: lightpink;
+  box-shadow: red;
+  color: rgb(255, 255, 255);
+    background: pink;
+    opacity: 0.3s;
+    /*  */
+}
+#art{
+  height: 50vh;
+  padding-Top:20px;
+  border-Radius:500px;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vh;
+}
+
+#a {
+  color: inherit;
+  text-decoration: none;
+  
+}
+
+#a {
+  text-shadow:  1px 0.5px  hotpink;
+  background:
+    linear-gradient(
+      to right,
+      rgb(200, 100, 180),
+      rgb(200, 100, 113)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 50% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+#a:hover {
+  background-size: 0 6px, 100% 7px;
+}
+
+.GL{
+  border-radius: 0px;
+}
+.GL:hover{
+  border:solid;
+  border-radius: 5px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#backgroundColor{
+  background-color: black;
+}
+#basic-navbar-nav{
+  margin:auto 85%;
+}
+div{
+visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+.pink{
+  color:rgb(255, 202, 211);
+}
+#pink{
+  color:rgb(255, 202, 211);
+}
+.normalfont{
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#picture{
+ height:"14vh";
+  margin-top:"25px";
+}
+#a2 {
+  color: inherit;
+  text-decoration: none; 
+}
+
+#a2 {
+  background:
+    linear-gradient(
+      to right,
+      pink,
+      rgb(200, 100, 113)
+    ),
+    linear-gradient(
+      to right,
+      rgb(255, 0, 136),
+      rgba(255, 0, 180, 1),
+      rgb(255, 181, 237)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 50% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+#a2:hover {
+  background-size: 0 6px, 100% 7px;
+}
+
+#why{
+  font-size: 20px;
+  text-shadow: white;
+  text-shadow:  0.7px 0.2px  hotpink;
+  padding-top: 10px;
+
+}
+#why:hover{
+  transition: background-size 400ms;
+  opacity: 1s;
+  color:rgb(249, 167, 224);
+
+}
+s {
+  position: relative;
+}
+
+s::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #18272F;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+
+s:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+#cards
+{
+   width: 25rem;
+   height:25rem; 
+   text-align:center;
+   border: solid;
+   margin-Top:40px;
+} 
+#darkerpink{
+  color:  #ff9ec8;
+}
+#cardTitleSpacing{
+  padding-top:10px;
+  text-Decoration:underline;
+   font-Size:30px; 
+   padding-Bottom:15px;
+  color: hotpink;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+/* .content{
+  text-shadow: 1px 1px 1px black, 0 0 5px red, 0 0 5px pink;
+
+} */
+/* #shadow{ */
+  /* color:pink;
+  text-shadow:  1px 1px  hotpink;
+  transform: translateY(-2px); */
+  /* color: pink;
+  text-shadow:  1px 1px  hotpink;
+
+  text-decoration: none;
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)),
+    linear-gradient(#feb2b2, #feb2b2);
+  background-size: 50% 2px, 0 2px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s linear;
+  right: 0; */
+
+/* } */
+
+/* #shadow:hover{ */
+  /* text-decoration: underline 0.15em purple;
+  transition: text-decoration-color 300ms;
+  text-decoration-color: rgb(255, 200, 234); */
+  /* background-size: 0 2px, 100% 2px; */
+
+/* } */
+
+
+#mypic{
+  background:"white";
+  border:solid;
+  border-color: pink;
+  transition: opacity 1s ease-in-out !important;
+
+}
+#secondCardTitle{
+  text-Decoration:underline;
+   font-Size:30px; 
+   color:black;
+   /* color: #ff9ec8; */
+  /* color: rgb(254, 1, 127); */
+
+}
+.underlineintro{
+  text-shadow:  1px 0.2px  pink;
+}
+#underlineintro{
+  text-shadow:  1px 0.2px  hotpink;
+}
+/* .resume{
+  text-shadow:  1px 0.2px  pink;
+} */
+.resume:hover{
+  opacity: 1s;
+  border:solid;
+  transition: width 0.9 ease;
+  transition: width 0.9s ease;
+  -webkit-transition: width 0.9s ease;
+}
+.underline{
+  color:black;
+  text-shadow:  1px 1px  hotpink;
+  text-Align:center;
+}
+.underline:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 7px;
+  display: block;
+  margin-top: 5px;
+  margin: auto 0;
+  right: 0;
+  background: black;
+  transition: width 0.5s ease;
+  -webkit-transition: width 0.5s ease;
+  /* left: 0; */
+}
+.underline:hover:after{
+  width: 100%;
+  left: 0;
+  background: black;
+}
+
+/* .image {
+  transition: 1s ease;
+} */
+
+/* COOL FOR ZOOMING BUT NOT MOBILE FRIENDLY */
+/* .image:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  }  */
+#aspiringfont{
+  text-shadow:  0.5px 0.2px  pink;
+}
+#contactFont{
+  color:white;
+}
+
+
+#contactbutton{
+  font-size: 25px;
+  border:solid;
+  background-color: pink;
+  background: rgb(255, 185, 197);
+  padding: 10px;
+  transition: 0.5s ease;
+  border-radius: 7px;
+  color:pink;
+  margin-left: auto;
+  margin-right: auto;
+}
+#contactbutton:hover{
+  border-color: lightpink;
+  color: rgb(250, 121, 143);
+    background: rgb(255, 67, 98);
+    opacity: 0.3s;
+  }
+  .glow {
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+  /* Shrink Image CSS
+Add the following CSS:
+
+.shrink img {
+transition: 1s ease;
+}
+
+.shrink img:hover{
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease;
+} */
+
+
+/* useful for making the image brighten up below! */
+/* .image {
+  opacity:0.7;
+transition: 1s ease;
+}
+
+.image:hover{
+  opacity:1;
+  transition: 1s ease;
+  }  */
+  
+  
