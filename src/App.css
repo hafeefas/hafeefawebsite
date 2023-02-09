@@ -362,7 +362,7 @@ transition: 1s ease;
 
 
 /* useful for making the image brighten up below! */
-/* .image {
+image {
   opacity:0.7;
 transition: 1s ease;
 }
@@ -370,6 +370,5 @@ transition: 1s ease;
 .image:hover{
   opacity:1;
   transition: 1s ease;
-  }  */
-  
+  }  
   
