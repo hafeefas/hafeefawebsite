@@ -76,8 +76,8 @@ function App() {
              
        {/* first card */}
 
-      <Row style= {{paddingTop:"10px"}}>
-      <p id="a" style={{textAlign:"center", fontSize:"45px", paddingBottom:"10px"}}> 
+      <Row style= {{paddingTop:"10px",  margin:"auto"}}>
+      <p id="a" style={{textAlign:"center", fontSize:"45px", paddingBottom:"10px",  margin:"auto"}}> 
           Frameworks and Languages I use
       </p>
 
@@ -93,7 +93,7 @@ function App() {
           <br/>
 
           <img src="https://images.velog.io/images/gga4638/post/6d9df8cb-5086-4fa9-83d1-521fd6a2cb27/image.png" 
-          style={{height:"14vh", marginTop:"35px"}}/> 
+          style={{height:"14vh", marginTop:"35px",  margin:"auto"}}/> 
         </Card.Text>
         {/* <Button variant="primary">Go somewhere</Button> */}
       </Card.Body>
@@ -102,7 +102,7 @@ function App() {
 
     {/* second card */}
 
-    <Col  style={{marginLeft:"10px"}}><Card  id="cards" >
+    <Col  style={{marginLeft:"10px",  margin:"auto"}}><Card  id="cards" >
       <Card.Body>
         <Card.Title id="cardTitleSpacing">React JS, BootStrap JS</Card.Title>
         <Card.Text>
@@ -113,7 +113,7 @@ function App() {
           <br/>
 
           <img src="https://www.educative.io/api/page/5816757605367808/image/download/5327498687545344" 
-          id="picture" style={{height:"14vh", marginTop:"35px"}}/>
+          id="picture" style={{height:"14vh", marginTop:"35px",  margin:"auto"}}/>
 
         </Card.Text>
       </Card.Body>
@@ -121,7 +121,7 @@ function App() {
     <br/>
 
     {/* third card */}
-    <Col  style={{marginLeft:"10px"}}><Card  id="cards">
+    <Col  style={{marginLeft:"10px",  margin:"auto"}}><Card  id="cards">
       <Card.Body>
         <Card.Title id="cardTitleSpacing">Java</Card.Title>
         <Card.Text>
@@ -130,7 +130,7 @@ function App() {
           with java and more real world applications with it. <br/>
 
           <img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Emblem.jpg" 
-          id="picture" style={{height:"14vh", marginTop:"35px"}}/>
+          id="picture" style={{height:"14vh", marginTop:"35px",  margin:"auto"}}/>
         </Card.Text>
       </Card.Body>
     </Card></Col>
@@ -149,7 +149,7 @@ function App() {
       <Col>
         <div class="container">   
           <img src="https://media.licdn.com/dms/image/D4E03AQFKCehSPZwPmQ/profile-displayphoto-shrink_800_800/0/1674249851349?e=1680739200&v=beta&t=pIz9oADbHJRR8Uo_36pNl-ACKgcRpXbsVbcwIgFQpH8"
-          class="image" style={{width:"48vh", paddingTop:"50px", borderRadius:"30px"}} />
+          class="image" style={{width:"48vh", paddingTop:"50px", borderRadius:"30px",  margin:"auto"}} />
         </div>
       </Col>
 {/* why i want to become full stack */}
