@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hafeefaweb/static/css/main.6c045e31.css",
+    "main.js": "/hafeefaweb/static/js/main.dc79c477.js",
+    "static/js/787.6730cbc8.chunk.js": "/hafeefaweb/static/js/787.6730cbc8.chunk.js",
+    "index.html": "/hafeefaweb/index.html",
+    "main.6c045e31.css.map": "/hafeefaweb/static/css/main.6c045e31.css.map",
+    "main.dc79c477.js.map": "/hafeefaweb/static/js/main.dc79c477.js.map",
+    "787.6730cbc8.chunk.js.map": "/hafeefaweb/static/js/787.6730cbc8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c045e31.css",
+    "static/js/main.dc79c477.js"
+  ]
+}
