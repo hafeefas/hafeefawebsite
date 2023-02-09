@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
  function Navbarr() {
   return (
 
-    <Navbar variant="light" expand="lg" >
+    <Navbar variant="light" expand="lg" style={{paddingTop:"10px"}}>
       <Container>
         <Navbar.Brand> 
             <a href= "mailto:hafeefas47@gmail.com" 
