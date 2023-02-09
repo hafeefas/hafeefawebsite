@@ -362,18 +362,14 @@ transition: 1s ease;
 
 
 /* useful for making the image brighten up below! */
-.image {
-  opacity:0.9;
-  transition: 1s ease;
-  margin:auto;
+/* .image {
+  opacity:0.7;
+transition: 1s ease;
 }
 
 .image:hover{
   opacity:1;
   transition: 1s ease;
-  -webkit-transform: scale(0.2);
-  -ms-transform: scale(0.1);
-  transform: scale(1.05);
-  transition: 1s ease;
-  } 
+  }  */
+  
   
